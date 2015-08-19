@@ -19,7 +19,7 @@
 }
 
 - (NSString *)description {
-    return [NSString stringWithFormat:@"%@ - %@ - %zd -%f", _name, _title, _age, _title];
+    return [NSString stringWithFormat:@"%@ - %@ - %zd -%.02f", _name, _title, _age, _height];
 }
 
 @end

@@ -386,6 +386,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FFChineseSort/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyios.FFChineseSort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -402,6 +403,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = FFChineseSort/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.joyios.FFChineseSort;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -448,6 +450,7 @@
 				C2F5AF3A1B84DCAA0011FC43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C2F5AF3B1B84DCAA0011FC43 /* Build configuration list for PBXNativeTarget "FFChineseSortTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +459,7 @@
 				C2F5AF3D1B84DCAA0011FC43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
