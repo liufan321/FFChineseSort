@@ -25,7 +25,7 @@ pod 'FFChineseSort'
 * 如果还没有 Podfile，可以直接输入以下命令：
 
 ```bash
-echo "pod 'FFChineseSort'" > Podfile
+$ echo "pod 'FFChineseSort'" > Podfile
 ```
 
 * 在终端之行以下命令安装 Pod
