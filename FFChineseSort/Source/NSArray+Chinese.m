@@ -17,7 +17,7 @@
     
     for (int i = 0; i < self.count; ++i) {
         NSString *chineseString = (chineseKey == nil) ? self[i] : [self[i] valueForKeyPath:chineseKey];
-        [tmpArray addObject:@{@"obj": self[i], @"pinyin": chineseString.pinyinString}];
+        [tmpArray addObject:@{@"obj": self[i], @"pinyin": chineseString.pinyinString.lowercaseString}];
     }
     
     [tmpArray sortUsingComparator:^NSComparisonResult(NSDictionary *obj1, NSDictionary *obj2) {

@@ -55,7 +55,7 @@
     }];
     
     // 排序字符串数组
-    NSArray *strings = @[@"张三", @"李四", @"王五", @"赵六", @"安娜"];
+    NSArray *strings = @[@"198914", @"JLD", @"吊儿郎当", @"李四", @"王五", @"赵六", @"安娜"];
     NSLog(@"--- 排序字符串数组 ---");
     result = [strings sortedWithChineseKey:nil];
     [result enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
